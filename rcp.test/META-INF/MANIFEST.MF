@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test
+Bundle-SymbolicName: rcp.test
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: rcp.test.Activator
+Bundle-Vendor: FunThomas424242
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.osgi.framework
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.swt,
+ org.junit,
+ org.eclipse.swtbot.go
